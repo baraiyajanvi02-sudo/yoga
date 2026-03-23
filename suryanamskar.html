@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Suryanamaskar</title>
+
+<style>
+body{
+    font-family:Arial;
+    margin:0;
+    padding:0;
+}
+
+/* Navbar */
+nav{
+    background:#7198AF;
+    padding:15px 50px;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+}
+
+/* Content */
+.container{
+    padding:50px;
+    text-align:center;
+}
+
+.container img{
+    width:300px;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+h1{
+    color:#7198AF;
+}
+
+p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.7;
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <div>DHYANA YOGA</div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Suryanamaskar (Sun Salutation)</h1>
+    <img src="https://images.pexels.com/photos/4057335/pexels-photo-4057335.jpeg" alt="Suryanamaskar">
+    <p>
+    Suryanamaskar is a sequence of twelve powerful yoga poses. 
+    It energizes the body, strengthens muscles, improves flexibility, 
+    and stimulates internal organs.  
+<br>
+    Benefits:
+    - Improves posture  <br>
+    - Boosts metabolism  <br>
+    - Increases flexibility  <br>
+    - Reduces stress and anxiety  <br>
+
+    Steps:
+    1. Start in Mountain Pose <br> 
+    2. Stretch arms upward  <br>
+    3. Forward bend  <br>
+    4. Step back into plank  <br>
+    5. Cobra Pose  <br>
+    6. Downward Dog  <br>
+    7. Step forward  <br>
+    8. Rise back to Mountain Pose  <br>
+    </p>
+</div>
+
+    <a href="service.html" class="btn">⬅ Back to Services</a>
+   <style>
+    .btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:10px 22px;
+    background:#7198AF;
+    color:white;
+    border-radius:25px;
+    text-decoration:none;
+    font-size:16px;
+    transition:0.3s;
+}
+
+/* Hover effect 🔥 */
+.btn:hover{
+    background:#5b7b9c;
+    transform:scale(1.05);
+}
+.btn{
+    display:block;              /* inline thi block karvu */
+    margin:25px auto;           /* auto thi center aavse */
+    width:fit-content;          /* button size content jetlu */
+    padding:10px 22px;
+    background:#7198AF;
+    color:white;
+    border-radius:25px;
+    text-decoration:none;
+    font-size:16px;
+    transition:0.3s;
+}
+
+/* Hover */
+.btn:hover{
+    background:#5b7b9c;
+    transform:scale(1.05);
+}
+/* 📱 Mobile Responsive */
+@media (max-width:768px){
+
+    /* Navbar */
+    nav{
+        flex-direction:column;
+        padding:10px;
+        text-align:center;
+    }
+
+    .nav-links{
+        margin-top:10px;
+    }
+
+    .nav-links a{
+        display:block;
+        margin:8px 0;
+        font-size:16px;
+    }
+
+    /* Hero Text */
+    .hero h1{
+        font-size:28px;
+        padding:10px 15px;
+    }
+
+    /* Sections Padding */
+    .container,
+    .contact-section,
+    .story{
+        padding:30px 20px;
+    }
+
+    /* Cards (Services Page) */
+    .container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:90%;
+    }
+
+    /* Images */
+    img{
+        width:100%;
+        height:auto;
+    }
+
+    /* Mission Section */
+    .mission{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .box{
+        width:90%;
+    }
+
+    /* Form */
+    .contact-form{
+        width:100%;
+    }
+
+    /* Button */
+    button{
+        width:100%;
+    }
+}
+
+
+   </style>
+</html>
