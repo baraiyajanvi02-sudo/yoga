@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yoga Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .content h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #ffffff; /* heading white */
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff; /* text white */
+}
+
+.content button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, #589eb8, #5187a7); /* gradient button */
+    color: white; /* button font white */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect */
+.content button:hover {
+    background: linear-gradient(to right, #7198af, #a0d0e2);
+}
+
+
+        /* Navbar */
+        .navbar {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            color: hite;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .navbar ul li {
+            margin-left: 20px;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background: url("dhyana.jpeg"); /* ahi tari image nu naam */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Content */
+        .content {
+            text-align: center;
+            color: white;
+        }
+
+        .content h1 {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .content button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            background: white;
+            color: black;
+            cursor: pointer;
+            font-size: 16px;
+
+        }
+        /* Navbar background color */
+nav {
+    background-color: #153a50;
+}
+
+/* Navbar text (Home, About, Services, Contact) */
+nav a {
+    color:  #153a50;; /* tame white rakhso to saras lage */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* Logo / Top left DHYANA YOGA */
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Center main text (DHYANA YOGA) */
+.hero h1 {
+    color: #153a50;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* Button (optional thodu stylish) */
+button {
+    background: linear-gradient(to right, #a0d2e2, #7198af);
+    color: #153a50;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <h2>DHYANA YOGA</h2>
+        
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+<style>
+    nav{
+    background:#7198AF;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+/* Hover effect 🔥 */
+.nav-links a:hover{
+    color:#153a50;
+}
+/* 📱 Mobile Responsive */
+@media (max-width:768px){
+
+    /* Navbar */
+    nav{
+        flex-direction:column;
+        padding:10px;
+        text-align:center;
+    }
+
+    .nav-links{
+        margin-top:10px;
+    }
+
+    .nav-links a{
+        display:block;
+        margin:8px 0;
+        font-size:16px;
+    }
+
+    /* Hero Text */
+    .hero h1{
+        font-size:28px;
+        padding:10px 15px;
+    }
+
+    /* Sections Padding */
+    .container,
+    .contact-section,
+    .story{
+        padding:30px 20px;
+    }
+
+    /* Cards (Services Page) */
+    .container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:90%;
+    }
+
+    /* Images */
+    img{
+        width:100%;
+        height:auto;
+    }
+
+    /* Mission Section */
+    .mission{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .box{
+        width:90%;
+    }
+
+    /* Form */
+    .contact-form{
+        width:100%;
+    }
+
+    /* Button */
+    button{
+        width:100%;
+    }
+}
+
+</style>
+
+
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="content">
+            
+            <h1>DHYANA     
+                         YOGA</h1>
+            
+            <button>Start your practice today</button>
+        </div>
+    </div>
+   <nav>
+   
+
+</body>
+</html>
