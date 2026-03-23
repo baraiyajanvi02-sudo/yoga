@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About - Dhyana Yoga</title>
+
+<style>
+
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav{
+    background:#7198AF;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin:0 15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+/* Hero Section */
+.hero{
+    height:60vh;
+    background:url('https://images.pexels.com/photos/3822140/pexels-photo-3822140.jpeg') no-repeat center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    padding-bottom:40px;
+}
+
+.\.hero h1{
+    color:#7198AF;
+    font-size:35px; /* 👈 pela karta nanu */
+    background:rgba(255,255,255,0.85); /* 👈 thodu transparent look */
+    padding:8px 20px;
+    border-radius:30px; /* 👈 pill shape stylish */
+    letter-spacing:2px; /* 👈 thodu premium feel */
+    box-shadow:0 4px 15px rgba(0,0,0,0.2); /* 👈 shadow */
+}
+
+
+
+/* Story Section */
+.story{
+    padding:60px 100px;
+    text-align:center;
+}
+
+.story h2{
+    color:#7198AF;
+    margin-bottom:20px;
+}
+
+.story p{
+    color:#555;
+    line-height:1.8;
+    max-width:800px;
+    margin:auto;
+}
+
+/* Mission Vision */
+.mission{
+    display:flex;
+    justify-content:space-around;
+    padding:50px;
+    background:#f5f5f5;
+}
+
+.box{
+    width:40%;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.box h3{
+    color:#7198AF;
+    margin-bottom:15px;
+}
+
+/* Why Us */
+.why{
+    padding:60px;
+    text-align:center;
+}
+
+.why h2{
+    color:#7198AF;
+    margin-bottom:20px;
+}
+
+.why ul{
+    list-style:none;
+}
+
+.why ul li{
+    margin:10px 0;
+    font-size:18px;
+}
+
+/* CTA */
+.cta{
+    background:#7198AF;
+    color:white;
+    text-align:center;
+    padding:50px;
+}
+
+.cta button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    background:linear-gradient(to right, #a0d2e2, #7198AF);
+    color:#153a50;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="logo">DHYANA YOGA</div>
+    
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+<style>
+    nav{
+    background:#7198AF;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+/* Hover effect 🔥 */
+.nav-links a:hover{
+    color:#153a50;
+}
+/* 📱 Mobile Responsive */
+@media (max-width:768px){
+
+    /* Navbar */
+    nav{
+        flex-direction:column;
+        padding:10px;
+        text-align:center;
+    }
+
+    .nav-links{
+        margin-top:10px;
+    }
+
+    .nav-links a{
+        display:block;
+        margin:8px 0;
+        font-size:16px;
+    }
+
+    /* Hero Text */
+    .hero h1{
+        font-size:28px;
+        padding:10px 15px;
+    }
+
+    /* Sections Padding */
+    .container,
+    .contact-section,
+    .story{
+        padding:30px 20px;
+    }
+
+    /* Cards (Services Page) */
+    .container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:90%;
+    }
+
+    /* Images */
+    img{
+        width:100%;
+        height:auto;
+    }
+
+    /* Mission Section */
+    .mission{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .box{
+        width:90%;
+    }
+
+    /* Form */
+    .contact-form{
+        width:100%;
+    }
+
+    /* Button */
+    button{
+        width:100%;
+    }
+}
+
+
+</style>
+
+
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <h1>About Us</h1>
+</div>
+
+<!-- Story -->
+<section class="story">
+    <h2>Our Story</h2>
+    <p>
+    Dhyana Yoga was created with a simple belief — that true peace comes from within. 
+    In today’s fast-moving world, people often forget to pause, breathe, and connect with themselves.
+
+    We started as a small initiative with a passion for helping individuals reduce stress, 
+    improve health, and find balance in their daily lives. Over time, Dhyana Yoga has grown 
+    into a welcoming space for everyone.
+
+    Our goal is to guide you towards inner peace, strength, and positivity — one breath at a time.
+    </p>
+</section>
+
+<!-- Mission Vision -->
+<section class="mission">
+    <div class="box">
+        <h3>Our Mission</h3>
+        <p>To help people live a healthy, stress-free and balanced life through yoga.</p>
+    </div>
+
+    <div class="box">
+        <h3>Our Vision</h3>
+        <p>To create a world full of mindful, happy and healthy individuals.</p>
+    </div>
+</section>
+
+<!-- Why Us -->
+<section class="why">
+    <h2>Why Choose Us</h2>
+    <ul>
+        <li>✔ Experienced Trainers</li>
+        <li>✔ Peaceful Environment</li>
+        <li>✔ Beginner Friendly</li>
+        <li>✔ Online & Offline Classes</li>
+    </ul>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <h2>Start Your Journey Today</h2>
+    <button>Join Now</button>
+</section>
+
+</body>
+</html>
