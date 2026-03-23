@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Services - Dhyana Yoga</title>
+
+<style>
+
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav{
+    background:#7198AF;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+}
+
+.logo{
+    color:white;
+    font-weight:bold;
+    font-size:24px;
+}
+
+/* Hero Section */
+.services{
+    text-align:center;
+    padding:50px;
+    background:#f5f9fc;
+}
+
+.services h1{
+    color:#7198AF;
+    margin-bottom:10px;
+}
+
+.services p{
+    color:#555;
+    margin-bottom:40px;
+    font-size:18px;
+}
+
+/* Cards */
+.container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:250px;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+    transition:0.4s;
+    background:white;
+}
+
+.card:hover{
+    transform:scale(1.08);
+    box-shadow:0 8px 25px rgba(0,0,0,0.3);
+}
+
+/* Image */
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+/* Card Text */
+.card h3{
+    padding:15px;
+    color:#153a50;
+}
+
+/* Button */
+.card button{
+    margin:10px;
+    padding:8px 15px;
+    border:none;
+    background:#7198AF;
+    color:white;
+    border-radius:20px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.card button:hover{
+    background:#5b7b9c;
+}
+
+/* CTA */
+.cta{
+    background:#7198AF;
+    color:white;
+    text-align:center;
+    padding:50px;
+    margin-top:50px;
+}
+
+.cta button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    background:white;
+    color:#153a50;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:16px;
+}
+/* 📱 Mobile Responsive */
+@media (max-width:768px){
+
+    /* Navbar */
+    nav{
+        flex-direction:column;
+        padding:10px;
+        text-align:center;
+    }
+
+    .nav-links{
+        margin-top:10px;
+    }
+
+    .nav-links a{
+        display:block;
+        margin:8px 0;
+        font-size:16px;
+    }
+
+    /* Hero Text */
+    .hero h1{
+        font-size:28px;
+        padding:10px 15px;
+    }
+
+    /* Sections Padding */
+    .container,
+    .contact-section,
+    .story{
+        padding:30px 20px;
+    }
+
+    /* Cards (Services Page) */
+    .container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:90%;
+    }
+
+    /* Images */
+    img{
+        width:100%;
+        height:auto;
+    }
+
+    /* Mission Section */
+    .mission{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .box{
+        width:90%;
+    }
+
+    /* Form */
+    .contact-form{
+        width:100%;
+    }
+
+    /* Button */
+    button{
+        width:100%;
+    }
+}
+
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="logo">DHYANA YOGA</div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<!-- Services Hero -->
+<section class="services">
+    <h1>Our Yoga Services</h1>
+    <p>Explore our yoga practices designed for peace, strength, and flexibility.</p>
+
+    <div class="container">
+
+        <!-- Tadasana -->
+        <div class="card">
+            <img src="namskar.jpeg" alt="suryanamskar">
+            <h3> suryanamskar</h3>
+            <a href="suryanamskar.html"><button>View Details</button></a>
+        </div>
+
+        <!-- Vrikshasana -->
+        <div class="card">
+            <img src="chakrasan.jpeg" alt="chakrasan">
+            <h3> chakrasan</h3>
+            <a href="chakrasan.html"><button>View Details</button></a>
+        </div>
+
+        <!-- Bhujangasana -->
+        <div class="card">
+            <img src="garudasan.jpeg" alt="garudasan">
+            <h3> garudasan</h3>
+            <a href="garudasan.html"><button>View Details</button></a>
+        </div>
+
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta">
+    <h2>Start Your Yoga Journey</h2>
+    <button>Join Now</button>
+</section>
+
+</body>
+</html>
