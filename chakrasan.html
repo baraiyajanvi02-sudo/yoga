@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chakrasana - Dhyana Yoga</title>
+
+<style>
+
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav{
+    background:#7198AF;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+}
+
+.logo{
+    color:white;
+    font-weight:bold;
+    font-size:24px;
+}
+
+/* Hero */
+.hero{
+    height:50vh;
+    background:url('https://images.unsplash.com/photo-1606788075762-3dbaee5e0d6f') no-repeat center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero h1{
+    color:white;
+    font-size:45px;
+    background:rgba(0,0,0,0.5);
+    padding:15px 25px;
+    border-radius:15px;
+}
+
+
+/* Content */
+.container{
+    padding:60px 100px;
+    text-align:center;
+}
+
+.container img{
+    width:300px;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#7198AF;
+    margin-bottom:15px;
+}
+
+p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+    color:#555;
+}
+
+/* List */
+ul{
+    max-width:600px;
+    margin:20px auto;
+    text-align:left;
+}
+
+ul li{
+    margin:10px 0;
+}
+
+/* Button */
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 20px;
+    background:#7198AF;
+    color:white;
+    border-radius:25px;
+    text-decoration:none;
+}
+
+/* Footer */
+footer{
+    background:#153a50;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+/* 📱 Mobile Responsive */
+@media (max-width:768px){
+
+    /* Navbar */
+    nav{
+        flex-direction:column;
+        padding:10px;
+        text-align:center;
+    }
+
+    .nav-links{
+        margin-top:10px;
+    }
+
+    .nav-links a{
+        display:block;
+        margin:8px 0;
+        font-size:16px;
+    }
+
+    /* Hero Text */
+    .hero h1{
+        font-size:28px;
+        padding:10px 15px;
+    }
+
+    /* Sections Padding */
+    .container,
+    .contact-section,
+    .story{
+        padding:30px 20px;
+    }
+
+    /* Cards (Services Page) */
+    .container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:90%;
+    }
+
+    /* Images */
+    img{
+        width:100%;
+        height:auto;
+    }
+
+    /* Mission Section */
+    .mission{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .box{
+        width:90%;
+    }
+
+    /* Form */
+    .contact-form{
+        width:100%;
+    }
+
+    /* Button */
+    button{
+        width:100%;
+    }
+}
+
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="logo">DHYANA YOGA</div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <h1>Chakrasana</h1>
+</div>
+
+<!-- Content -->
+<div class="container">
+
+    <img src="chakrasan.jpg" alt="Chakrasana">
+
+    <h2>About Chakrasana (Wheel Pose)</h2>
+    <p>
+    Chakrasana, also known as Wheel Pose, is a powerful backbend that improves flexibility 
+    and strengthens the entire body. It opens up the chest and lungs, making breathing easier 
+    and more effective.
+    </p>
+
+    <h2>Benefits</h2>
+    <ul>
+        <li>Improves spinal flexibility</li>
+        <li>Strengthens arms, legs, and core</li>
+        <li>Opens chest and improves breathing</li>
+        <li>Boosts energy and reduces stress</li>
+    </ul>
+
+    <h2>Steps to Perform</h2>
+    <ul>
+        <li>Lie flat on your back</li>
+        <li>Bend your knees and place feet on the floor</li>
+        <li>Place hands near shoulders</li>
+        <li>Lift your body into an arch shape</li>
+        <li>Hold for a few seconds and breathe</li>
+        <li>Slowly come back down</li>
+    </ul>
+
+    <a href="service.html" class="btn">⬅ Back to Services</a>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    &copy; 2026 Dhyana Yoga. All Rights Reserved.
+</footer>
+
+</body>
+</html>
